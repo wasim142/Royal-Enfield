@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <script defer src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+
+    <!-- JS -->
+    <script src="app.js" defer></script>
+
+
+    <title>Bikes in India | Royal Enfield</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <img src="images/logo.png" alt="logo" class="logo">
+
+        <div class="mid-nav">
+            <ul>
+                <li><a href="">Motorcycles</a></li>
+                <li>Shop The Look <i class="fa fa-angle-down" aria-hidden="true"></i> </li>
+                <li>Own A Royal Enfield <i class="fa fa-angle-down" aria-hidden="true"></i></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Rides</a></li>
+                <li>Reach Us <i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+
+        <div class="left-nav">
+            <ul>
+                <li> <span style="font-size: 15px;">Login</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </li>
+                <li style="font-size: 20px;"><i class="fa fa-search" aria-hidden="true"></i></li>
+                <li><a href=""><img src="images/flag.jpg" alt="flag" class="flag"> En</a></li>
+                <li style="font-size: 18px; padding-left: 2px;"><i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- UPPER SECTION 1 -->
+    <section class="upper-section">
+        <div class="img-1-div">
+            <img src="images/img-1.jpg" alt="img-1" class="img-1">
+            <a href="#">
+                <button>Explore <i class="fa fa-angle-right" aria-hidden="true"
+                        style="font-size: 15px; padding-left: 5px;"></i></button>
+            </a>
+        </div>
+        <div class="img-2-div">
+            <img src="images/img-2.jpg" alt="img-2" class="img-2">
+            <a href="#">
+                <button>Explore <i class="fa fa-angle-right" aria-hidden="true"
+                        style="font-size: 15px; padding-left: 5px;"></i></button>
+            </a>
+        </div>
+    </section>
+
+    <!-- UPPER SECTION 2 -->
+    <section class="upper-section-2">
+        <div class="us-img">
+            <img src="images/hunter-350.jpg" alt="hunter-350" class="hunter-350" height="100%" width="100%">
+            <h4>The Hunter 350 is a motorcycle that keeps <br> things simple, fun and engaging....</h4>
+        </div>
+        <div class="us-img">
+            <img src="images/democratic.jpg" alt="democratic" class="democratic" height="100%" width="100%">
+            <h4>Democratic like jeans, the Hunter 350 is perfect for those who want an easy......</h4>
+        </div>
+        <div class="us-img">
+            <img src="images/hunter.jpg" alt="hunter" class="hunter" height="100%" width="100%">
+            <h4>The Hunter certainly meets the <br> expectations of a modern day Royal <br> Enfield.
+            </h4>
+        </div>
+        <div class="us-img">
+            <img src="images/built-slick.jpg" alt="built-slick" class="built-slick" height="100%" width="100%">
+            <h4>Built to be slick and fun around the city, <br> the Hunter 350 is a hoot to ride.</h4>
+        </div>
+    </section>
+
+    <!-- HEADER 1 -->
+    <section>
+        <div class="header-1">
+            <h3>Motorcycles</h3>
+            <ul>
+                <li onclick="super_meteor()">Super Meteor 650</li>
+                <li>|</li>
+                <li onclick=" hunter_350_2()">Hunter 350</li>
+                <li>|</li>
+                <li onclick="scram()">Scram 411</li>
+                <li>|</li>
+                <li onclick="classic()">Classic</li>
+                <li>|</li>
+                <li onclick="easy()">Interceptor</li>
+                <li>|</li>
+                <li onclick="continental()">Continental GT</li>
+                <li>|</li>
+                <li onclick="meteor()">Meteor</li>
+                <li>|</li>
+                <li onclick="himalayan()">Himalayan</li>
+                <li>|</li>
+                <li onclick="bullet()">Bullet</li>
+            </ul>
+        </div>
+        <div style="position: relative;">
+            <img src="images/super-meteor.jpg" alt="bikes" height="100%" width="100%" id="bikes">
+            <a href="#" style="color: #ffffff;">
+                <button id="header-1-btn" class="super-meteor-btn"> Explore
+                    <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 15px; padding-left: 5px;"></i>
+            </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- HEADER 2 -->
+    <section>
+        <div class="header-1">
+            <h3>Rides</h3>
+            <ul>
+                <li onclick="rider_mania()">Rider Mania 2022</li>
+                <li>|</li>
+                <li onclick="guide()">RE:Mapped</li>
+            </ul>
+        </div>
+        <div style="position: relative;" id="ok">
+            <img src="images/rider-mania.jpg" alt="rides" height="530px" width="100%" id="rides">
+            <h2 class="header-2-text">Rider Mania 2022</h2>
+            <a href="">
+                <button id="header-2-btn" class="super-meteor-btn"> Watch The Film
+                    <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 15px; padding-left: 5px;"></i>
+                </button>
+            </a>
+        </div>
+
+        <div style="position: relative;" id="ko" class="hidden">
+            <img src="images/explore-guide.jpg" alt="rides" height="530px" width="100%" id="rides">
+            <a href="#">
+                <button id="header-2-btn2" class="super-meteor-btn">Download Now
+                    <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 15px; padding-left: 5px;"></i>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- HEADER 3 -->
+    <section>
+        <div class="header-1">
+            <h3>Apparel</h3>
+            <ul>
+                <li onclick="apparel_650()">Super Meteor 650</li>
+                <li>|</li>
+                <li onclick="apparel_collectible()">The Classic Collectible</li>
+                <li>|</li>
+                <li onclick="alpinestar()">Royal Enfield X Alpinestar</li>
+                <li>|</li>
+                <li onclick="scram_11()">Scram 411 Collections</li>
+                <li>|</li>
+                <li onclick="enfield_tcx()">Royal Enfield X TCX</li>
+                <li>|</li>
+                <li onclick="jacket()">MIY Riding Jacket</li>
+            </ul>
+        </div>
+        <div style="position: relative;" id="scram-11-above">
+            <img src="images/apparel-super-meteor.jpg" alt="apparel" height="545px" width="100%" id="apparel">
+            <a href="#" style="color: #ffffff;">
+                <button id="header-3-btn" class="apparel-meteor-btn"> Know More
+                    <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 15px; padding-left: 5px;"></i>
+                </button>
+            </a>
+        </div>
+
+        <div style="position: relative;" id="scram-11" class="hidden">
+            <img src="images/scram-11.jpg" alt="apparel" height="545px" width="100%" id="apparel">
+            <a href="#" style="color: #ffffff;">
+                <button id="header-3-btn" class="scram-11-btn"> Know More
+                    <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 15px; padding-left: 5px;"></i>
+                </button>
+            </a>
+            <p id="header-3-p">
+                Choose from the range of exclusive Scram 411 <br> apparel from Royal Enfield Apparel for that <br>
+                perfect Scram
+                look.
+            </p>
+        </div>
+    </section>
+
+    <!-- HEADER 4 -->
+    <section>
+        <div class="header-1 header-4">
+            <h3>Accessories</h3>
+            <ul>
+                <li onclick="gma_accs()">Genuine Mototrcycle Accessories</li>
+                <li>|</li>
+                <li onclick="miy()">Make It Yours</li>
+            </ul>
+        </div>
+
+        <div style="position: relative;" id="accessories-above">
+            <img src="images/gma-accessories.jpg" alt="accessories" height="545px" width="100%" id="accessories">
+            <a href="#">
+                <button id="header-4-btn" class="gma-btn"> Know More
+                    <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 15px; padding-left: 5px;"></i>
+                </button>
+            </a>
+        </div>
+
+        <div style="position: relative;" id="accessories-below" class="hidden">
+            <img src="images/accessories-miy.jpg" alt="accessories" height="545px" width="100%" id="accessories">
+            <a href="#">
+                <button id="header-4-btn" class="miy-btn"> Know More
+                    <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 15px; padding-left: 5px;"></i>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- HEADER 5 -->
+    <section>
+        <div class="header-1 header-5">
+            <h3>Locate Us</h3>
+            <ul>
+                <li onclick="locate_store()">Stores</li>
+                <li>|</li>
+                <li onclick="locate_service()">Service Centres</li>
+                <li>|</li>
+                <li onclick="locate_parts()">Genuine Parts Distributors</li>
+            </ul>
+        </div>
+
+        <div style="position: relative;" id="locate-above">
+            <img src="images/stores.jpg" alt="locate" height="545px" width="100%" id="locate">
+            <h3 class="header-5-h3-locate">There Is One Near You</h3>
+            <a href="#">
+                <button id="header-5-btn" class="store-btn"> Find A Store
+                    <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 15px; padding-left: 5px;"></i>
+                </button>
+            </a>
+        </div>
+
+        <div style="position: relative;" id="locate-between" class="hidden">
+            <img src="images/service-centres.jpg" alt="locate" height="545px" width="100%" id="locate">
+            <h3 class="header-5-h3-store">For Everything That Your <br>Motorcycle May Need</h3>
+            <a href="#">
+                <button id="header-5-btn" class="service-btn"> Find A Service Centre
+                    <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 15px; padding-left: 5px;"></i>
+                </button>
+            </a>
+        </div>
+
+        <div style="position: relative;" id="locate-below" class="hidden">
+            <img src="images/genuine-parts.jpg" alt="locate" height="545px" width="100%" id="locate">
+            <h3 class="header-5-h3-parts">Keep It Real With Genuine Spare <br>Parts</h3>
+            <a href="#">
+                <button id="header-5-btn" class="parts-btn"> Find A Distributor
+                    <i class="fa fa-angle-right" aria-hidden="true" style="font-size: 15px; padding-left: 5px;"></i>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- HEADER 6 -->
+    <section>
+        <div class="header-6">
+            <h3>Popular Tags</h3>
+        </div>
+        <div style="display: flex;">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                style="width: 25%; position: relative;">
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-image bg-img-1 active">
+                        <img src="images/cards/1-1.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-2">
+                        <img src="images/cards/1-2.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-3">
+                        <img src="images/cards/1-3.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-3">
+                        <img src="images/cards/1-4.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                </div>
+                <a href="">
+                    <h3 class="card-1">#PureCruising</h3>
+                </a>
+                <a href="">
+                    <p class="card-1-p">@Anonymous <i class="fa fa-instagram" aria-hidden="true"
+                            style="font-size: 25px;"></i></p>
+                </a>
+            </div>
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                style="width: 25%; position: relative;">
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-image bg-img-1 active">
+                        <img src="images/cards/2-1.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-2">
+                        <img src="images/cards/2-2.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-3">
+                        <img src="images/cards/2-3.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-3">
+                        <img src="images/cards/4-4.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                </div>
+                <a href="">
+                    <h3 class="card-1 card-2">#RiderMania2022</h3>
+                </a>
+                <a href="">
+                    <p class="card-1-p card-2-p">@insaneindietraveler <i class="fa fa-instagram" aria-hidden="true"
+                            style="font-size: 25px;"></i></p>
+                </a>
+            </div>
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                style="width: 25%; position: relative;">
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-image bg-img-1 active">
+                        <img src="images/cards/3-1.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-2">
+                        <img src="images/cards/3-2.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-3">
+                        <img src="images/cards/3-3.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-3">
+                        <img src="images/cards/3-4.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                </div>
+                <a href="">
+                    <h3 class="card-1 card-3">#Classic350</h3>
+                </a>
+                <a href="">
+                    <p class="card-1-p card-3-p">@magnifieras <i class="fa fa-instagram" aria-hidden="true"
+                            style="font-size: 25px;"></i></p>
+                </a>
+            </div>
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"
+                style="width: 25%; position: relative;">
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-image bg-img-1 active">
+                        <img src="images/cards/4-1.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-2">
+                        <img src="images/cards/4-2.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-3">
+                        <img src="images/cards/4-3.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                    <div class="carousel-item carousel-image bg-img-3">
+                        <img src="images/cards/4-4.jpg" class="d-block w-100" alt="..." height="400px" width="100%">
+                    </div>
+                </div>
+                <a href="">
+                    <h3 class="card-1 card-4">#VibeHunter</h3>
+                </a>
+                <a href="">
+                    <p class="card-1-p card-4-p">@miles_on_smile <i class="fa fa-instagram" aria-hidden="true"
+                            style="font-size: 25px;"></i></p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- HEADER 7 -->
+    <section>
+        <div class="header-7">
+            <div class="h-7-icons">
+                <i class="fa fa-hand-pointer-o" aria-hidden="true" style="font-size: 50px; padding-left: 33px;"></i>
+                <a href="">
+                    <p>Book a Test Ride <i class="fa fa-angle-right" aria-hidden="true"
+                            style="font-size: 18px; padding-left: 6px;"></i></p>
+                </a>
+            </div>
+            <div class="h-7-icons">
+                <i class="fa fa-map-o" aria-hidden="true" style="font-size: 50px; padding-left: 13px;"></i>
+                <a href="">
+                    <p>Find a Store <i class="fa fa-angle-right" aria-hidden="true"
+                            style="font-size: 18px; padding-left: 6px;"></i></p>
+                </a>
+            </div>
+            <div class="h-7-icons">
+                <i class="fa fa-map-o" aria-hidden="true" style="font-size: 50px;"></i>
+                <a href="">
+                    <p>Ride Out <i class="fa fa-angle-right" aria-hidden="true"
+                            style="font-size: 18px; padding-left: 6px;"></i></p>
+                </a>
+            </div>
+            <div class="h-7-icons">
+                <i class="fa fa-wrench" aria-hidden="true" style="font-size: 50px; padding-left: 33px;"></i>
+                <a href="">
+                    <p>Book a Service <i class="fa fa-angle-right" aria-hidden="true"
+                            style="font-size: 18px; padding-left: 6px;"></i></p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOCIAL -->
+    <section>
+        <div class="social">
+            <p style="font-size: 15px;">Join the Conversation</p>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+    </section>
+
+    <hr style="border: 1px solid grey; margin: 10px 30px 30px;">
+
+    <!-- FOOTER TABLE -->
+    <section class="foot-table">
+        <table class="table-1">
+            <tr>
+                <th>Motorcycles</th>
+            </tr>
+            <tr>
+                <td>Super Meteor 650</td>
+            </tr>
+            <tr>
+                <td>Hunter 350</td>
+            </tr>
+            <tr>
+                <td>Scram 411</td>
+            </tr>
+            <tr>
+                <td>Classic 350</td>
+            </tr>
+            <tr>
+                <td>Meteor</td>
+            </tr>
+            <tr>
+                <td>Interceptor 650</td>
+            </tr>
+            <tr>
+                <td>Continental GT</td>
+            </tr>
+            <tr>
+                <td>Himalayan</td>
+            </tr>
+            <tr>
+                <td>Bullet <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 18px;"></i></td>
+            </tr>
+        </table>
+
+        <table class="table-2">
+            <tr>
+                <th>Rides & Events </th>
+            </tr>
+            <tr>
+                <td>Rides</td>
+            </tr>
+            <tr>
+                <td>Events</td>
+            </tr>
+            <tr>
+                <td>Ride Out</td>
+            </tr>
+        </table>
+
+        <table class="table-3">
+            <tr>
+                <th>Support</th>
+            </tr>
+            <tr>
+                <td>Service Centres</td>
+            </tr>
+            <tr>
+                <td>Stores</td>
+            </tr>
+            <tr>
+                <td>Owner's Manual</td>
+            </tr>
+            <tr>
+                <td>Contact Us</td>
+            </tr>
+            <tr>
+                <td>Book a Test Ride</td>
+            </tr>
+            <tr>
+                <td>Make It Yours</td>
+            </tr>
+            <tr>
+                <td>Become a Dealer</td>
+            </tr>
+            <tr>
+                <td>Become a Genuine</td>
+            </tr>
+            <tr>
+                <td>Parts Distributor</td>
+            </tr>
+        </table>
+
+        <table class="table-4">
+            <tr>
+                <th>About Us</th>
+            </tr>
+            <tr>
+                <td>Since 1901</td>
+            </tr>
+            <tr>
+                <td>About Eicher Motors</td>
+            </tr>
+        </table>
+
+        <table class="table-5">
+            <tr>
+                <th>News & Media</th>
+            </tr>
+            <tr>
+                <td>News</td>
+            </tr>
+            <tr>
+                <td>Press Releases</td>
+            </tr>
+            <tr>
+                <td>Media Kit</td>
+            </tr>
+            <tr>
+                <td>Events</td>
+            </tr>
+        </table>
+
+        <table class="table-6">
+            <tr>
+                <th>Careers</th>
+            </tr>
+            <tr>
+                <td>Life at Royal Enfield</td>
+            </tr>
+        </table>
+
+        <table class="table-7">
+            <tr>
+                <th>Our World</th>
+            </tr>
+            <tr>
+                <td>Royal Enfield App</td>
+            </tr>
+            <tr>
+                <td>Custom World</td>
+            </tr>
+            <tr>
+                <td>News and Media</td>
+            </tr>
+            <tr>
+                <td>Since 1901</td>
+            </tr>
+            <tr>
+                <td>Wallpapers</td>
+            </tr>
+            <tr>
+                <td>Forum</td>
+            </tr>
+            <tr>
+                <td>Trip Stories</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr style="border: 1px solid grey; margin: 35px 30px 15px;">
+
+    <section class="footer">
+        <div class="foot-left" style="line-height: 20px;">
+            © 2023. Royal Enfield. | *T&C apply. Images shown here may differ from the <br> actual product.
+        </div>
+        <div class="foot-right">
+            <ul>
+                <li>
+                    <a href="">Private Import Policy</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="">Terms & Conditions</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="">Cookies</a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="">Sitemap</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+
+</html>
